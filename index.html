@@ -1,0 +1,180 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+        crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
+    <style>
+        #map {
+         width: 1663px;
+         height: 852px;
+        }
+        #export {
+            position: absolute;
+            top:30px;
+            right:250px;
+            z-index:100;
+            background:rgb(184, 168, 168);
+            color:black;
+            padding:6px;
+            border-radius:4px;
+            font-family: 'Helvetica Neue';
+            cursor: pointer;
+            font-size:12px;
+            text-decoration:none  
+        }
+    </style>
+    <title>Webová mapová aplikace pro lokalitu Nečtiny</title>
+</head>
+<body>
+    <h1>Webová mapová aplikace pro vizualizaci bodového pole v lokalitě Nečtiny</h1>
+    <div  id="map"></div>
+        <button  id="export">Export Features</button>
+
+</body>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+        crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="./data/geolet.js"></script>
+<script>
+    // Map initialization
+    var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[49.95721087684856,13.157015287230195],[49.960337560286064,13.16312519451218]]);
+    
+    // Background layers
+    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    
+    var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3']
+    });
+
+    var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
+    maxZoom: 20,
+    subdomains:['mt0','mt1','mt2','mt3']
+    });
+    googleSat.addTo(map)
+    googleStreets.addTo(map)
+
+    // Icon options
+
+    var LeafIcon = L.Icon.extend({
+        options: {
+            iconSize:     [20, 20],
+            iconAnchor:   [5, 5],
+            popupAnchor:  [5, -5]
+        }
+    });
+
+    var nivel_icon = new LeafIcon({iconUrl: './img/nivelation_point.png'})
+        trigo_icon = new LeafIcon({iconUrl: './img/trigonometric_point.png'});
+
+    // GEOJSON
+    // trigonometric points        
+    var trigo_body = new L.geoJson.ajax("./data/trigonometricke_body.geojson", {
+                            onEachFeature: function (feature, layer) {
+                                layer.bindPopup('<h1>'+feature.properties.Name+'</h1><p>Souřadnice x: '+feature.properties.s_x+' (S-JTSK)</p><p>Souřadnice y: '+feature.properties.s_y+' (S-JTSK)</p><p>Souřadnice x: '+feature.properties.sou_x_wgs+' (WGS)</p><p>Souřadnice y: '+feature.properties.sou_y_wgs+' (WGS)</p>' );
+                            },
+                            pointToLayer: function (feature, latlng) {
+                                return L.marker(latlng, {icon: trigo_icon});
+                            }
+        }).addTo(map);
+
+    // nivelation points
+    var nive_body = new L.geoJson.ajax("./data/nivelacni_body.geojson", {
+                            onEachFeature: function(feature,layer) {
+                                layer.bindPopup('<h1>'+feature.properties.name+'</h1><p>Souřadnice x: '+feature.properties.sou_x+' (S-JTSK)</p><p>Souřadnice y: '+feature.properties.sou_y+' (S-JTSK)</p><p>Nadmořská výška: '+feature.properties.vyska+' m</p>' );
+                            },
+                            pointToLayer: function (feature, latlng) {
+                                return L.marker(latlng, {icon: nivel_icon});
+                            }
+        }).addTo(map);
+
+    // layer controler
+    var baseMaps = {
+        "OSM": osm,
+        "Google Sattelite": googleSat,
+        "Google street": googleStreets,
+    };
+
+    var overlayMaps = {
+        "Trigonometrické body": trigo_body,
+        "Nivelační body": nive_body
+    };
+
+    L.control.layers(baseMaps, overlayMaps).addTo(map);
+    
+
+    // Geolocation
+
+    L.geolet({ position: 'bottomleft' }).addTo(map);
+
+    // Toolbar for drawing
+    var drawnItems = new L.FeatureGroup();
+    map.addLayer(drawnItems);
+
+    var drawControl = new L.Control.Draw({
+        draw: {
+            polygon: false,
+            polyline: false,
+            rectangle: false,
+            circle: false,
+            marker: {
+                icon: trigo_icon
+            },
+        },
+        edit: {
+             featureGroup: trigo_body, drawnItems,
+             edit: true
+        },
+    });
+    map.addControl(drawControl);
+    // Point to file 
+
+    map.on('draw:created', function(e) {
+        var type = e.layerType;
+        var layer = e.layer;
+        var idIW = L.popup();
+        var content = '<span><b>Name</b></span><br/><input id="Name" type="text"/><br/><br/><span><b>Souřadnice Y JTSK</b></span><br/><input id="s_y" type="text"/><br/><br/><span><b>Souřadnice X JTSK</b></span><br/><input id="s_x" type="text"/><br/><br/><span><b>Souřadnice X WGS</b></span><br/><input id="sou_x_wgs" type="text"/><br/><br/><span><b>Souřadnice Y WGS</b></span><br/><input id="sou_y_wgs" type="text"/><br/><br/><input type="button" id="okBtn" value="Uložit" onclick="saveIdIW()"/>';
+        idIW.setContent(content);
+        idIW.setLatLng(layer.getLatLng());
+        idIW.openOn(map);
+        drawnItems.addLayer(layer)
+        
+    });
+
+    function saveIdIW() {
+        var sName = $('#Name').val();
+        var sY = $('#s_y').val();
+        var sX = $('#s_x').val();
+        var souXwgs = $('#sou_x_wgs').val();
+        var souYwgs = $('#sou_y_wgs').val();
+        var drawings = drawnItems.getLayers();
+        drawings[drawings.length - 1].title = sName;
+        drawings[drawings.length - 1].content = sY;
+        drawings[drawings.length - 1].content = sX;
+        drawings[drawings.length - 1].content = souXwgs;
+        drawings[drawings.length - 1].content = souYwgs;
+        map.closePopup();
+    };
+    
+//Export
+    document.getElementById('export').onclick = function(e) {  
+        var data = drawnItems.toGeoJSON();
+        var convertedData = 'text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
+  // Create export
+        document.getElementById('export').setAttribute('href', 'data:' + convertedData);
+        document.getElementById('export').setAttribute('download', 'drawnItems.geojson');
+    }
+ 
+    
+
+    
+</script>

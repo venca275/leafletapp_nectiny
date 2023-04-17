@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "nivelacni_body",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Abf-56", "sou_x": 1044076.0, "sou_y": 834366.0, "vyska": 540.1 }, "geometry": { "type": "Point", "coordinates": [ 13.159086425198439, 49.958896413039099, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "Abf-54", "sou_x": 1044042.0, "sou_y": 834485.0, "vyska": 535.053 }, "geometry": { "type": "Point", "coordinates": [ 13.157374929009791, 49.959034747655551, 535.052999999999884 ] } },
+{ "type": "Feature", "properties": { "name": "Abf-53", "sou_x": 1043953.0, "sou_y": 834653.0, "vyska": 545.888 }, "geometry": { "type": "Point", "coordinates": [ 13.154871195749138, 49.959594294141425, 545.888000000006286 ] } },
+{ "type": "Feature", "properties": { "name": "Abf-58", "sou_x": 1044038.0, "sou_y": 834129.0, "vyska": 527.353 }, "geometry": { "type": "Point", "coordinates": [ 13.162269580077123, 49.959560139688733, 527.353000000002794 ] } },
+{ "type": "Feature", "properties": { "name": "Abf-52", "sou_x": 1043777.0, "sou_y": 834850.0, "vyska": 521.789 }, "geometry": { "type": "Point", "coordinates": [ 13.151782294317456, 49.960886866335841, 521.789000000004307 ] } },
+{ "type": "Feature", "properties": { "name": "Abf-57", "sou_x": 1044188.0, "sou_y": 834235.0, "vyska": 526.485 }, "geometry": { "type": "Point", "coordinates": [ 13.161129531103029, 49.958081506756173, 526.485000000000582 ] } }
+]
+}
