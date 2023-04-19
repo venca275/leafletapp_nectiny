@@ -9,20 +9,6 @@
          width: 1663px;
          height: 852px;
         }
-        #export {
-            position: absolute;
-            top:30px;
-            right:250px;
-            z-index:100;
-            background:rgb(184, 168, 168);
-            color:black;
-            padding:6px;
-            border-radius:4px;
-            font-family: 'Helvetica Neue';
-            cursor: pointer;
-            font-size:12px;
-            text-decoration:none  
-        }
     </style>
     <title>Webová mapová aplikace pro lokalitu Nečtiny</title>
 </head>
@@ -115,66 +101,5 @@
     // Geolocation
 
     L.geolet({ position: 'bottomleft' }).addTo(map);
-
-    // Toolbar for drawing
-    var drawnItems = new L.FeatureGroup();
-    map.addLayer(drawnItems);
-
-    var drawControl = new L.Control.Draw({
-        draw: {
-            polygon: false,
-            polyline: false,
-            rectangle: false,
-            circle: false,
-            marker: {
-                icon: trigo_icon
-            },
-        },
-        edit: {
-             featureGroup: trigo_body, drawnItems,
-             edit: true
-        },
-    });
-    map.addControl(drawControl);
-    // Point to file 
-
-    map.on('draw:created', function(e) {
-        var type = e.layerType;
-        var layer = e.layer;
-        var idIW = L.popup();
-        var content = '<span><b>Name</b></span><br/><input id="Name" type="text"/><br/><br/><span><b>Souřadnice Y JTSK</b></span><br/><input id="s_y" type="text"/><br/><br/><span><b>Souřadnice X JTSK</b></span><br/><input id="s_x" type="text"/><br/><br/><span><b>Souřadnice X WGS</b></span><br/><input id="sou_x_wgs" type="text"/><br/><br/><span><b>Souřadnice Y WGS</b></span><br/><input id="sou_y_wgs" type="text"/><br/><br/><input type="button" id="okBtn" value="Uložit" onclick="saveIdIW()"/>';
-        idIW.setContent(content);
-        idIW.setLatLng(layer.getLatLng());
-        idIW.openOn(map);
-        drawnItems.addLayer(layer)
-        
-    });
-
-    function saveIdIW() {
-        var sName = $('#Name').val();
-        var sY = $('#s_y').val();
-        var sX = $('#s_x').val();
-        var souXwgs = $('#sou_x_wgs').val();
-        var souYwgs = $('#sou_y_wgs').val();
-        var drawings = drawnItems.getLayers();
-        drawings[drawings.length - 1].title = sName;
-        drawings[drawings.length - 1].content = sY;
-        drawings[drawings.length - 1].content = sX;
-        drawings[drawings.length - 1].content = souXwgs;
-        drawings[drawings.length - 1].content = souYwgs;
-        map.closePopup();
-    };
-    
-//Export
-    document.getElementById('export').onclick = function(e) {  
-        var data = drawnItems.toGeoJSON();
-        var convertedData = 'text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data));
-  // Create export
-        document.getElementById('export').setAttribute('href', 'data:' + convertedData);
-        document.getElementById('export').setAttribute('download', 'drawnItems.geojson');
-    }
  
-    
-
-    
 </script>
