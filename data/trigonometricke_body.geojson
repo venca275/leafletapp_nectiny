@@ -5,1050 +5,1125 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1557390850001,49.95671667 ]
+       "coordinates":  [ 13.155739081,49.9567166649 ]
     },
     "properties": {
-    "Name":"503",
+    "Name":503,
     "s_y":834640.46,
     "s_x":1044278.81,
     "sou_x_wgs":49.9567166649,
-    "sou_y_wgs":13.155739081
+    "sou_y_wgs":13.155739081,
+    "Picture":"503.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.156042174,49.956624951 ]
+       "coordinates":  [ 13.1560421696,49.9566249465 ]
     },
     "properties": {
-    "Name":"504",
+    "Name":504,
     "s_y":834620.53,
     "s_x":1044292.22,
     "sou_x_wgs":49.9566249465,
-    "sou_y_wgs":13.1560421696
+    "sou_y_wgs":13.1560421696,
+    "Picture":"504.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1572115070001,49.9574328400001 ]
+       "coordinates":  [ 13.1572115021,49.9574328347 ]
     },
     "properties": {
-    "Name":"505",
+    "Name":505,
     "s_y":834523.86,
     "s_x":1044216.27,
     "sou_x_wgs":49.9574328347,
-    "sou_y_wgs":13.1572115021
+    "sou_y_wgs":13.1572115021,
+    "Picture":"505.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.159233516,49.964537573 ]
+       "coordinates":  [ 13.1592335116,49.964537568 ]
     },
     "properties": {
-    "Name":"519",
+    "Name":519,
     "s_y":834259.55,
     "s_x":1043457.6,
     "sou_x_wgs":49.964537568,
-    "sou_y_wgs":13.1592335116
+    "sou_y_wgs":13.1592335116,
+    "Picture":"519.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1653819260001,49.9662251290001 ]
+       "coordinates":  [ 13.1653819213,49.9662251243 ]
     },
     "properties": {
-    "Name":"532",
+    "Name":532,
     "s_y":833794.93,
     "s_x":1043339.61,
     "sou_x_wgs":49.9662251243,
-    "sou_y_wgs":13.1653819213
+    "sou_y_wgs":13.1653819213,
+    "Picture":"532.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1601822860001,49.9592505620001 ]
+       "coordinates":  [ 13.1601822818,49.9592505567 ]
     },
     "properties": {
-    "Name":"548",
+    "Name":548,
     "s_y":834282.27,
     "s_x":1044049.11,
     "sou_x_wgs":49.9592505567,
-    "sou_y_wgs":13.1601822818
+    "sou_y_wgs":13.1601822818,
+    "Picture":"548.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1607253810001,49.959351127 ]
+       "coordinates":  [ 13.1607253762,49.9593511221 ]
     },
     "properties": {
-    "Name":"549",
+    "Name":549,
     "s_y":834242.05,
     "s_x":1044044.02,
     "sou_x_wgs":49.9593511221,
-    "sou_y_wgs":13.1607253762
+    "sou_y_wgs":13.1607253762,
+    "Picture":"549.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1634777350001,49.9604244220001 ]
+       "coordinates":  [ 13.1634777303,49.9604244167 ]
     },
     "properties": {
-    "Name":"550",
+    "Name":550,
     "s_y":834028.63,
     "s_x":1043956.27,
     "sou_x_wgs":49.9604244167,
-    "sou_y_wgs":13.1634777303
+    "sou_y_wgs":13.1634777303,
+    "Picture":"550.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.166918493,49.9606098680001 ]
+       "coordinates":  [ 13.1669184889,49.9606098634 ]
     },
     "properties": {
-    "Name":"551",
+    "Name":551,
     "s_y":833781.51,
     "s_x":1043973.65,
     "sou_x_wgs":49.9606098634,
-    "sou_y_wgs":13.1669184889
+    "sou_y_wgs":13.1669184889,
+    "Picture":"551.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1636930560001,49.9606132440001 ]
+       "coordinates":  [ 13.1636930515,49.9606132388 ]
     },
     "properties": {
-    "Name":"552",
+    "Name":552,
     "s_y":834010.15,
     "s_x":1043937.88,
     "sou_x_wgs":49.9606132388,
-    "sou_y_wgs":13.1636930515
+    "sou_y_wgs":13.1636930515,
+    "Picture":"552.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1603029720001,49.9598717550001 ]
+       "coordinates":  [ 13.1603029679,49.9598717505 ]
     },
     "properties": {
-    "Name":"553",
+    "Name":553,
     "s_y":834263.14,
     "s_x":1043982.16,
     "sou_x_wgs":49.9598717505,
-    "sou_y_wgs":13.1603029679
+    "sou_y_wgs":13.1603029679,
+    "Picture":"553.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1585945740001,49.952514594 ]
+       "coordinates":  [ 13.1585945699,49.9525145891 ]
     },
     "properties": {
-    "Name":"554",
+    "Name":554,
     "s_y":834509.51,
     "s_x":1044772.02,
     "sou_x_wgs":49.9525145891,
-    "sou_y_wgs":13.1585945699
+    "sou_y_wgs":13.1585945699,
+    "Picture":"554.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.157952499,49.954279398 ]
+       "coordinates":  [ 13.157952495,49.9542793929 ]
     },
     "properties": {
-    "Name":"556",
+    "Name":556,
     "s_y":834525,
     "s_x":1044571,
     "sou_x_wgs":49.9542793929,
-    "sou_y_wgs":13.157952495
+    "sou_y_wgs":13.157952495,
+    "Picture":"556.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1583741310001,49.955282234 ]
+       "coordinates":  [ 13.1583741261,49.9552822293 ]
     },
     "properties": {
-    "Name":"557",
+    "Name":557,
     "s_y":834478.03,
     "s_x":1044465.41,
     "sou_x_wgs":49.9552822293,
-    "sou_y_wgs":13.1583741261
+    "sou_y_wgs":13.1583741261,
+    "Picture":"557.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.158743987,49.9558910280001 ]
+       "coordinates":  [ 13.1587439829,49.9558910227 ]
     },
     "properties": {
-    "Name":"558",
+    "Name":558,
     "s_y":834441.44,
     "s_x":1044402.56,
     "sou_x_wgs":49.9558910227,
-    "sou_y_wgs":13.1587439829
+    "sou_y_wgs":13.1587439829,
+    "Picture":"558.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.159839961,49.9566515240001 ]
+       "coordinates":  [ 13.1598399561,49.9566515187 ]
     },
     "properties": {
-    "Name":"559",
+    "Name":559,
     "s_y":834350.78,
     "s_x":1044331.01,
     "sou_x_wgs":49.9566515187,
-    "sou_y_wgs":13.1598399561
+    "sou_y_wgs":13.1598399561,
+    "Picture":"559.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1606762910001,49.9574644960001 ]
+       "coordinates":  [ 13.1606762869,49.9574644906 ]
     },
     "properties": {
-    "Name":"560",
+    "Name":560,
     "s_y":834277.64,
     "s_x":1044250.84,
     "sou_x_wgs":49.9574644906,
-    "sou_y_wgs":13.1606762869
+    "sou_y_wgs":13.1606762869,
+    "Picture":"560.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.160685889,49.953032448 ]
+       "coordinates":  [ 13.1606858842,49.9530324433 ]
     },
     "properties": {
-    "Name":"564",
+    "Name":564,
     "s_y":834352.39,
     "s_x":1044738.07,
     "sou_x_wgs":49.9530324433,
-    "sou_y_wgs":13.1606858842
+    "sou_y_wgs":13.1606858842,
+    "Picture":"564.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.159412253,49.960386176 ]
+       "coordinates":  [ 13.1594122489,49.960386171 ]
     },
     "properties": {
-    "Name":"565",
+    "Name":565,
     "s_y":834317.54,
     "s_x":1043915.84,
     "sou_x_wgs":49.960386171,
-    "sou_y_wgs":13.1594122489
+    "sou_y_wgs":13.1594122489,
+    "Picture":"565.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1670113100001,49.964138889 ]
+       "coordinates":  [ 13.167011306,49.9641388839 ]
     },
     "properties": {
-    "Name":"567",
+    "Name":567,
     "s_y":833714.9,
     "s_x":1043586.79,
     "sou_x_wgs":49.9641388839,
-    "sou_y_wgs":13.167011306
+    "sou_y_wgs":13.167011306,
+    "Picture":"567.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1561637350001,49.949479425 ]
+       "coordinates":  [ 13.1561637303,49.9494794198 ]
     },
     "properties": {
-    "Name":"568",
+    "Name":568,
     "s_y":834733.57,
     "s_x":1045078.91,
     "sou_x_wgs":49.9494794198,
-    "sou_y_wgs":13.1561637303
+    "sou_y_wgs":13.1561637303,
+    "Picture":"568.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1570103060001,49.9481367670001 ]
+       "coordinates":  [ 13.1570103013,49.9481367624 ]
     },
     "properties": {
-    "Name":"569",
+    "Name":569,
     "s_y":834696.39,
     "s_x":1045235.78,
     "sou_x_wgs":49.9481367624,
-    "sou_y_wgs":13.1570103013
+    "sou_y_wgs":13.1570103013,
+    "Picture":"569.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1589867440001,49.948845722 ]
+       "coordinates":  [ 13.1589867401,49.9488457168 ]
     },
     "properties": {
-    "Name":"570",
+    "Name":570,
     "s_y":834544.15,
     "s_x":1045179.57,
     "sou_x_wgs":49.9488457168,
-    "sou_y_wgs":13.1589867401
+    "sou_y_wgs":13.1589867401,
+    "Picture":"570.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1590110830001,49.948460561 ]
+       "coordinates":  [ 13.1590110787,49.9484605563 ]
     },
     "properties": {
-    "Name":"571",
+    "Name":571,
     "s_y":834548.98,
     "s_x":1045222.17,
     "sou_x_wgs":49.9484605563,
-    "sou_y_wgs":13.1590110787
+    "sou_y_wgs":13.1590110787,
+    "Picture":"571.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1606703850001,49.9464851540001 ]
+       "coordinates":  [ 13.1606703801,49.9464851494 ]
     },
     "properties": {
-    "Name":"572",
+    "Name":572,
     "s_y":834464.92,
     "s_x":1045457.51,
     "sou_x_wgs":49.9464851494,
-    "sou_y_wgs":13.1606703801
+    "sou_y_wgs":13.1606703801,
+    "Picture":"572.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.160652779,49.9462612120001 ]
+       "coordinates":  [ 13.1606527746,49.9462612075 ]
     },
     "properties": {
-    "Name":"573",
+    "Name":573,
     "s_y":834469.98,
     "s_x":1045481.93,
     "sou_x_wgs":49.9462612075,
-    "sou_y_wgs":13.1606527746
+    "sou_y_wgs":13.1606527746,
+    "Picture":"573.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.161749249,49.94513785 ]
+       "coordinates":  [ 13.161749245,49.9451378454 ]
     },
     "properties": {
-    "Name":"574",
+    "Name":574,
     "s_y":834411.33,
     "s_x":1045617.44,
     "sou_x_wgs":49.9451378454,
-    "sou_y_wgs":13.161749245
+    "sou_y_wgs":13.161749245,
+    "Picture":"574.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1649657940001,49.9689602 ]
+       "coordinates":  [ 13.1649657898,49.9689601947 ]
     },
     "properties": {
-    "Name":"590",
+    "Name":590,
     "s_y":833777.9,
     "s_x":1043034.43,
     "sou_x_wgs":49.9689601947,
-    "sou_y_wgs":13.1649657898
+    "sou_y_wgs":13.1649657898,
+    "Picture":"590.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.157395432,49.957530831 ]
+       "coordinates":  [ 13.1573954278,49.957530826 ]
     },
     "properties": {
-    "Name":"592",
+    "Name":592,
     "s_y":834509.15,
     "s_x":1044207.52,
     "sou_x_wgs":49.957530826,
-    "sou_y_wgs":13.1573954278
+    "sou_y_wgs":13.1573954278,
+    "Picture":"592.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1630153890001,49.9601506970001 ]
+       "coordinates":  [ 13.1630153843,49.9601506918 ]
     },
     "properties": {
-    "Name":"593",
+    "Name":593,
     "s_y":834066.07,
     "s_x":1043981.28,
     "sou_x_wgs":49.9601506918,
-    "sou_y_wgs":13.1630153843
+    "sou_y_wgs":13.1630153843,
+    "Picture":"593.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.166521318,49.963922563 ]
+       "coordinates":  [ 13.1665213136,49.9639225582 ]
     },
     "properties": {
-    "Name":"595",
+    "Name":595,
     "s_y":833753.32,
     "s_x":1043605.19,
     "sou_x_wgs":49.9639225582,
-    "sou_y_wgs":13.1665213136
+    "sou_y_wgs":13.1665213136,
+    "Picture":"595.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1598864430001,49.957681102 ]
+       "coordinates":  [ 13.1598864383,49.9576810973 ]
     },
     "properties": {
-    "Name":"596",
+    "Name":596,
     "s_y":834329.96,
     "s_x":1044218.36,
     "sou_x_wgs":49.9576810973,
-    "sou_y_wgs":13.1598864383
+    "sou_y_wgs":13.1598864383,
+    "Picture":"596.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.159040293,49.9575958350001 ]
+       "coordinates":  [ 13.1590402888,49.9575958296 ]
     },
     "properties": {
-    "Name":"597",
+    "Name":597,
     "s_y":834391.41,
     "s_x":1044218.44,
     "sou_x_wgs":49.9575958296,
-    "sou_y_wgs":13.1590402888
+    "sou_y_wgs":13.1590402888,
+    "Picture":"597.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1619863400001,49.958337516 ]
+       "coordinates":  [ 13.1619863355,49.9583375109 ]
     },
     "properties": {
-    "Name":"599",
+    "Name":599,
     "s_y":834169.89,
     "s_x":1044169.27,
     "sou_x_wgs":49.9583375109,
-    "sou_y_wgs":13.1619863355
+    "sou_y_wgs":13.1619863355,
+    "Picture":"599.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1580848880001,49.949786809 ]
+       "coordinates":  [ 13.1580848839,49.9497868044 ]
     },
     "properties": {
-    "Name":"600",
+    "Name":600,
     "s_y":834592.09,
     "s_x":1045066.23,
     "sou_x_wgs":49.9497868044,
-    "sou_y_wgs":13.1580848839
+    "sou_y_wgs":13.1580848839,
+    "Picture":"600.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.155146713,49.953881514 ]
+       "coordinates":  [ 13.1551467083,49.9538815092 ]
     },
     "properties": {
-    "Name":"601",
+    "Name":601,
     "s_y":834730.74,
     "s_x":1044583.91,
     "sou_x_wgs":49.9538815092,
-    "sou_y_wgs":13.1551467083
+    "sou_y_wgs":13.1551467083,
+    "Picture":"601.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1553797280001,49.9555292490001 ]
+       "coordinates":  [ 13.1553797233,49.9555292438 ]
     },
     "properties": {
-    "Name":"602",
+    "Name":602,
     "s_y":834686.16,
     "s_x":1044405.37,
     "sou_x_wgs":49.9555292438,
-    "sou_y_wgs":13.1553797233
+    "sou_y_wgs":13.1553797233,
+    "Picture":"602.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.156295712,49.957359243 ]
+       "coordinates":  [ 13.1562957074,49.9573592381 ]
     },
     "properties": {
-    "Name":"603",
+    "Name":603,
     "s_y":834590.05,
     "s_x":1044214.3,
     "sou_x_wgs":49.9573592381,
-    "sou_y_wgs":13.1562957074
+    "sou_y_wgs":13.1562957074,
+    "Picture":"603.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.157489847,49.958162599 ]
+       "coordinates":  [ 13.1574898425,49.9581625942 ]
     },
     "properties": {
-    "Name":"604",
+    "Name":604,
     "s_y":834491.7,
     "s_x":1044139.12,
     "sou_x_wgs":49.9581625942,
-    "sou_y_wgs":13.1574898425
+    "sou_y_wgs":13.1574898425,
+    "Picture":"604.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.158268477,49.9589697330001 ]
+       "coordinates":  [ 13.1582684727,49.9589697281 ]
     },
     "properties": {
-    "Name":"605",
+    "Name":605,
     "s_y":834422.75,
     "s_x":1044058.96,
     "sou_x_wgs":49.9589697281,
-    "sou_y_wgs":13.1582684727
+    "sou_y_wgs":13.1582684727,
+    "Picture":"605.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.158804633,49.958853618 ]
+       "coordinates":  [ 13.1588046283,49.9588536135 ]
     },
     "properties": {
-    "Name":"606",
+    "Name":606,
     "s_y":834386.71,
     "s_x":1044077.61,
     "sou_x_wgs":49.9588536135,
-    "sou_y_wgs":13.1588046283
+    "sou_y_wgs":13.1588046283,
+    "Picture":"606.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.159475392,49.959401122 ]
+       "coordinates":  [ 13.1594753875,49.9594011168 ]
     },
     "properties": {
-    "Name":"607",
+    "Name":607,
     "s_y":834329.83,
     "s_x":1044024.8,
     "sou_x_wgs":49.9594011168,
-    "sou_y_wgs":13.1594753875
+    "sou_y_wgs":13.1594753875,
+    "Picture":"607.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1595042810001,49.959309567 ]
+       "coordinates":  [ 13.1595042764,49.9593095616 ]
     },
     "properties": {
-    "Name":"608",
+    "Name":608,
     "s_y":834329.34,
     "s_x":1044035.18,
     "sou_x_wgs":49.9593095616,
-    "sou_y_wgs":13.1595042764
+    "sou_y_wgs":13.1595042764,
+    "Picture":"608.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1594885370001,49.9584292700001 ]
+       "coordinates":  [ 13.1594885322,49.9584292647 ]
     },
     "properties": {
-    "Name":"609",
+    "Name":609,
     "s_y":834345.44,
     "s_x":1044131.76,
     "sou_x_wgs":49.9584292647,
-    "sou_y_wgs":13.1594885322
+    "sou_y_wgs":13.1594885322,
+    "Picture":"609.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1599948300001,49.9587859220001 ]
+       "coordinates":  [ 13.1599948261,49.9587859171 ]
     },
     "properties": {
-    "Name":"610",
+    "Name":610,
     "s_y":834303.47,
     "s_x":1044098.12,
     "sou_x_wgs":49.9587859171,
-    "sou_y_wgs":13.1599948261
+    "sou_y_wgs":13.1599948261,
+    "Picture":"610.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1609440730001,49.9581556100001 ]
+       "coordinates":  [ 13.1609440683,49.9581556055 ]
     },
     "properties": {
-    "Name":"611",
+    "Name":611,
     "s_y":834246.89,
     "s_x":1044177.82,
     "sou_x_wgs":49.9581556055,
-    "sou_y_wgs":13.1609440683
+    "sou_y_wgs":13.1609440683,
+    "Picture":"611.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.160469284,49.957991447 ]
+       "coordinates":  [ 13.1604692793,49.9579914422 ]
     },
     "properties": {
-    "Name":"612",
+    "Name":612,
     "s_y":834283.35,
     "s_x":1044190.65,
     "sou_x_wgs":49.9579914422,
-    "sou_y_wgs":13.1604692793
+    "sou_y_wgs":13.1604692793,
+    "Picture":"612.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1617659560001,49.9593421610001 ]
+       "coordinates":  [ 13.1617659512,49.9593421563 ]
     },
     "properties": {
-    "Name":"613",
+    "Name":613,
     "s_y":834168.42,
     "s_x":1044056.43,
     "sou_x_wgs":49.9593421563,
-    "sou_y_wgs":13.1617659512
+    "sou_y_wgs":13.1617659512,
+    "Picture":"613.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1590573600001,49.9516898480001 ]
+       "coordinates":  [ 13.1590573557,49.9516898426 ]
     },
     "properties": {
-    "Name":"614",
+    "Name":614,
     "s_y":834490.73,
     "s_x":1044867.75,
     "sou_x_wgs":49.9516898426,
-    "sou_y_wgs":13.1590573557
+    "sou_y_wgs":13.1590573557,
+    "Picture":"614.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1597587420001,49.9504272890001 ]
+       "coordinates":  [ 13.1597587372,49.9504272839 ]
     },
     "properties": {
-    "Name":"615",
+    "Name":615,
     "s_y":834462.48,
     "s_x":1045014.22,
     "sou_x_wgs":49.9504272839,
-    "sou_y_wgs":13.1597587372
+    "sou_y_wgs":13.1597587372,
+    "Picture":"615.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.15740801,49.9575771250001 ]
+       "coordinates":  [ 13.1574080058,49.9575771202 ]
     },
     "properties": {
-    "Name":"616",
+    "Name":616,
     "s_y":834507.47,
     "s_x":1044202.57,
     "sou_x_wgs":49.9575771202,
-    "sou_y_wgs":13.1574080058
+    "sou_y_wgs":13.1574080058,
+    "Picture":"616.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1582828430001,49.9573085220001 ]
+       "coordinates":  [ 13.1582828389,49.9573085169 ]
     },
     "properties": {
-    "Name":"617",
+    "Name":617,
     "s_y":834450.01,
     "s_x":1044241.7,
     "sou_x_wgs":49.9573085169,
-    "sou_y_wgs":13.1582828389
+    "sou_y_wgs":13.1582828389,
+    "Picture":"617.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1587824600001,49.9575166650001 ]
+       "coordinates":  [ 13.158782456,49.9575166602 ]
     },
     "properties": {
-    "Name":"618",
+    "Name":618,
     "s_y":834411.04,
     "s_x":1044224.31,
     "sou_x_wgs":49.9575166602,
-    "sou_y_wgs":13.158782456
+    "sou_y_wgs":13.158782456,
+    "Picture":"618.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1624682450001,49.958453252 ]
+       "coordinates":  [ 13.1624682406,49.9584532468 ]
     },
     "properties": {
-    "Name":"619",
+    "Name":619,
     "s_y":834133.75,
     "s_x":1044161.84,
     "sou_x_wgs":49.9584532468,
-    "sou_y_wgs":13.1624682406
+    "sou_y_wgs":13.1624682406,
+    "Picture":"619.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.161496275,49.96027128 ]
+       "coordinates":  [ 13.1614962703,49.9602712746 ]
     },
     "properties": {
-    "Name":"620",
+    "Name":620,
     "s_y":834171.73,
     "s_x":1043951.35,
     "sou_x_wgs":49.9602712746,
-    "sou_y_wgs":13.1614962703
+    "sou_y_wgs":13.1614962703,
+    "Picture":"620.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.148616399,49.962675199 ]
+       "coordinates":  [ 13.1486163948,49.9626751935 ]
     },
     "properties": {
-    "Name":"621",
+    "Name":621,
     "s_y":835044,
     "s_x":1043545.66,
     "sou_x_wgs":49.9626751935,
-    "sou_y_wgs":13.1486163948
+    "sou_y_wgs":13.1486163948,
+    "Picture":"621.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.144235499,49.9637265800001 ]
+       "coordinates":  [ 13.1442354942,49.9637265753 ]
     },
     "properties": {
-    "Name":"622",
+    "Name":622,
     "s_y":835336.68,
     "s_x":1043381.95,
     "sou_x_wgs":49.9637265753,
-    "sou_y_wgs":13.1442354942
+    "sou_y_wgs":13.1442354942,
+    "Picture":"622.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1597589530001,49.9504275830001 ]
+       "coordinates":  [ 13.1597589487,49.950427578 ]
     },
     "properties": {
-    "Name":"2 001",
+    "Name":2001,
     "s_y":834462.46,
     "s_x":1045014.19,
     "sou_x_wgs":49.950427578,
-    "sou_y_wgs":13.1597589487
+    "sou_y_wgs":13.1597589487,
+    "Picture":"2001.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1647809560001,49.9578485480001 ]
+       "coordinates":  [ 13.164780952,49.9578485434 ]
     },
     "properties": {
-    "Name":"1 213",
+    "Name":1213,
     "s_y":833980.05,
     "s_x":1044253.69,
     "sou_x_wgs":49.9578485434,
-    "sou_y_wgs":13.164780952
+    "sou_y_wgs":13.164780952,
+    "Picture":"1213.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.176384607,49.9582024490001 ]
+       "coordinates":  [ 13.1763846024,49.9582024443 ]
     },
     "properties": {
-    "Name":"1 212",
+    "Name":1212,
     "s_y":833151.23,
     "s_x":1044342.09,
     "sou_x_wgs":49.9582024443,
-    "sou_y_wgs":13.1763846024
+    "sou_y_wgs":13.1763846024,
+    "Picture":"1212.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1716796050001,49.9588351310001 ]
+       "coordinates":  [ 13.1716796008,49.9588351261 ]
     },
     "properties": {
-    "Name":"1 211",
+    "Name":1211,
     "s_y":833474.1,
     "s_x":1044220.95,
     "sou_x_wgs":49.9588351261,
-    "sou_y_wgs":13.1716796008
+    "sou_y_wgs":13.1716796008,
+    "Picture":"1211.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1679549090001,49.9561582100001 ]
+       "coordinates":  [ 13.1679549045,49.9561582046 ]
     },
     "properties": {
-    "Name":"1 206",
+    "Name":1206,
     "s_y":833783.74,
     "s_x":1044474.31,
     "sou_x_wgs":49.9561582046,
-    "sou_y_wgs":13.1679549045
+    "sou_y_wgs":13.1679549045,
+    "Picture":"1206.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.176503505,49.9605635280001 ]
+       "coordinates":  [ 13.1765035009,49.9605635229 ]
     },
     "properties": {
-    "Name":"1 201",
+    "Name":1201,
     "s_y":833102.67,
     "s_x":1044083.88,
     "sou_x_wgs":49.9605635229,
-    "sou_y_wgs":13.1765035009
+    "sou_y_wgs":13.1765035009,
+    "Picture":"1201.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.178932348,49.9617405210001 ]
+       "coordinates":  [ 13.178932344,49.9617405161 ]
     },
     "properties": {
-    "Name":"1 115",
+    "Name":1115,
     "s_y":832910.45,
     "s_x":1043981.14,
     "sou_x_wgs":49.9617405161,
-    "sou_y_wgs":13.178932344
+    "sou_y_wgs":13.178932344,
+    "Picture":"1115.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.173366011,49.956621709 ]
+       "coordinates":  [ 13.1733660063,49.9566217042 ]
     },
     "properties": {
-    "Name":"1 110",
+    "Name":1110,
     "s_y":833392.15,
     "s_x":1044482.73,
     "sou_x_wgs":49.9566217042,
-    "sou_y_wgs":13.1733660063
+    "sou_y_wgs":13.1733660063,
+    "Picture":"1110.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.173962664,49.959419423 ]
+       "coordinates":  [ 13.1739626594,49.9594194177 ]
     },
     "properties": {
-    "Name":"1 109",
+    "Name":1109,
     "s_y":833302.28,
     "s_x":1044181.77,
     "sou_x_wgs":49.9594194177,
-    "sou_y_wgs":13.1739626594
+    "sou_y_wgs":13.1739626594,
+    "Picture":"1109.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.164200114,49.957545069 ]
+       "coordinates":  [ 13.1642001093,49.9575450642 ]
     },
     "properties": {
-    "Name":"1 107",
+    "Name":1107,
     "s_y":834026.4,
     "s_x":1044280.67,
     "sou_x_wgs":49.9575450642,
-    "sou_y_wgs":13.1642001093
+    "sou_y_wgs":13.1642001093,
+    "Picture":"1107.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1680710790001,49.956118949 ]
+       "coordinates":  [ 13.1680710746,49.9561189436 ]
     },
     "properties": {
-    "Name":"1 106",
+    "Name":1106,
     "s_y":833776.17,
     "s_x":1044479.9,
     "sou_x_wgs":49.9561189436,
-    "sou_y_wgs":13.1680710746
+    "sou_y_wgs":13.1680710746,
+    "Picture":"1106.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1679306620001,49.9566185260001 ]
+       "coordinates":  [ 13.1679306578,49.9566185208 ]
     },
     "properties": {
-    "Name":"1 105",
+    "Name":1105,
     "s_y":833777.63,
     "s_x":1044423.45,
     "sou_x_wgs":49.9566185208,
-    "sou_y_wgs":13.1679306578
+    "sou_y_wgs":13.1679306578,
+    "Picture":"1105.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.172155237,49.9557093390001 ]
+       "coordinates":  [ 13.172155233,49.9557093335 ]
     },
     "properties": {
-    "Name":"1 104",
+    "Name":1104,
     "s_y":833493.52,
     "s_x":1044569.73,
     "sou_x_wgs":49.9557093335,
-    "sou_y_wgs":13.172155233
+    "sou_y_wgs":13.172155233,
+    "Picture":"1104.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.168154584,49.9604343940001 ]
+       "coordinates":  [ 13.1681545791,49.9604343892 ]
     },
     "properties": {
-    "Name":"1 103",
+    "Name":1103,
     "s_y":833696.85,
     "s_x":1044006.5,
     "sou_x_wgs":49.9604343892,
-    "sou_y_wgs":13.1681545791
+    "sou_y_wgs":13.1681545791,
+    "Picture":"1103.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.1710285770001,49.9635782760001 ]
+       "coordinates":  [ 13.1710285721,49.9635782709 ]
     },
     "properties": {
-    "Name":"1 102",
+    "Name":1102,
     "s_y":833439.61,
     "s_x":1043692.48,
     "sou_x_wgs":49.9635782709,
-    "sou_y_wgs":13.1710285721
+    "sou_y_wgs":13.1710285721,
+    "Picture":"1102.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.158532307,49.9621521550001 ]
+       "coordinates":  [ 13.1585323024,49.9621521498 ]
     },
     "properties": {
-    "Name":"1 100",
+    "Name":1100,
     "s_y":834349.87,
     "s_x":1043712.08,
     "sou_x_wgs":49.9621521498,
-    "sou_y_wgs":13.1585323024
+    "sou_y_wgs":13.1585323024,
+    "Picture":"1100.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 13.176503505,49.9605635280001 ]
+       "coordinates":  [ 13.1765035009,49.9605635229 ]
     },
     "properties": {
-    "Name":"1 101",
+    "Name":1101,
     "s_y":833102.67,
     "s_x":1044083.88,
     "sou_x_wgs":49.9605635229,
-    "sou_y_wgs":13.1765035009
+    "sou_y_wgs":13.1765035009,
+    "Picture":"1101.png"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 49.967074,13.14945 ]
+       "coordinates":  [ 13.14945,49.967074 ]
     },
     "properties": {
-    "Name":"623",
+    "Name":623,
     "s_y":834910.02,
     "s_x":1043071.46,
     "sou_x_wgs":49.967074,
-    "sou_y_wgs":13.14945
+    "sou_y_wgs":13.14945,
+    "Picture":"623.png"
     }
   }
 ]

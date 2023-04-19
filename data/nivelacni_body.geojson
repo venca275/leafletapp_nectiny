@@ -11,7 +11,8 @@
     "name":"Abf-56",
     "sou_x":1044076,
     "sou_y":834366,
-    "vyska":540.1
+    "vyska":540.1,
+    "Picture":"Abf-56.png"
     }
   },
   {
@@ -24,7 +25,8 @@
     "name":"Abf-54",
     "sou_x":1044042,
     "sou_y":834485,
-    "vyska":535.053
+    "vyska":535.053,
+    "Picture":"Abf-54.png"
     }
   },
   {
@@ -37,7 +39,8 @@
     "name":"Abf-53",
     "sou_x":1043953,
     "sou_y":834653,
-    "vyska":545.888
+    "vyska":545.888,
+    "Picture":"Abf-53.png"
     }
   },
   {
@@ -50,7 +53,8 @@
     "name":"Abf-58",
     "sou_x":1044038,
     "sou_y":834129,
-    "vyska":527.353
+    "vyska":527.353,
+    "Picture":"Abf-58.png"
     }
   },
   {
@@ -63,7 +67,8 @@
     "name":"Abf-52",
     "sou_x":1043777,
     "sou_y":834850,
-    "vyska":521.789
+    "vyska":521.789,
+    "Picture":"Abf-52.png"
     }
   },
   {
@@ -76,7 +81,8 @@
     "name":"Abf-57",
     "sou_x":1044188,
     "sou_y":834235,
-    "vyska":526.485
+    "vyska":526.485,
+    "Picture":"Abf-57.png"
     }
   }
 ]
