@@ -5,7 +5,7 @@ mapa: https://venca275.github.io/leafletapp_nectiny/
 ## Aktualizace bodového pole
 Pro aktualizaci bodového pole je nutné vyplnit ve správném formátu informace o nových bodech do tabulky xls, kterou následně stáhnete ve formátu CSV, který musíte převést pomocí convertoru uvedeného níže a nahrát do složky "data"\
 Pro přidání obrázku k bodu stačí nahrát obrázek do složky "image_popup" ve formátu název.png\
-Na níže, uvedeném linku převedete CSV do GEOJSONU, který lze následně nahrát do složky, data a nahradit tím původní soubor(zkontrolovat jestli název sedí s původním souborem, jinak nebude fungovat(např. trigonometricke_body). Také se nesmí měnit jména sloupců). \
+Na níže, uvedeném linku převedete CSV do GEOJSONU, který lze následně nahrát do složky, data a nahradit tím původní soubor(zkontrolovat jestli název sedí s původním souborem, jinak nebude fungovat(např. trigonometricke_body)). Také se nesmí měnit jména sloupců. \
 Trigonometrické body: https://docs.google.com/spreadsheets/d/1WwdZLG7cznmaWxbvLW9Dh32ygGsZdkotd6pmdjcRZbQ/edit?usp=sharing \
 Nivelační body: https://docs.google.com/spreadsheets/d/1GDaGFvLHtiSU2rokVfMx4hcGpaxkWi-i-RWo1GSmT5Y/edit?usp=sharing \
 Converter: https://www.convertcsv.com/csv-to-geojson.htm \
